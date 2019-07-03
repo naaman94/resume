@@ -2,7 +2,7 @@
     margin: 0px;
 }
 #all {
-    width: 90%;
+    width: 75%;
     margin: auto;
 /*    min-width: 600px;
     max-width: 960px;*/
@@ -12,11 +12,14 @@
 
 .top {
     background-color: #056130;
-    height: 400px;
+    height: 340px;
     }
 
 .img1{
     border: red 10px solid;
+    position: absolute;
+    right: 30px;
+    top:150px;
 }
 
 .med{
@@ -27,6 +30,11 @@
     grid-template-columns:2fr 1fr;
     grid-template-rows: auto auto auto ;
 }
+h3{margin-top: 20px;
+    margin-bottom: 20px;}
+.hr-s{border:2px solid black; width: 20px}
+.hr-b{border:1px solid black;}
+
 .cont1{display:grid;
          grid-template-columns:1fr 2.5fr;
      }
@@ -43,9 +51,7 @@ display: grid;
 }
 
 .end{
-    position: fixed;
     bottom: 0px;
-    width: 90%;
     height: 100px;
     margin: auto;
     background-color: #056130;
