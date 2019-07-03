@@ -21,11 +21,25 @@
 
 .med{
     height: 800px;
+    padding-top: 40px; 
     display:grid;
+    grid-gap: 40px;
     grid-template-columns:2fr 1fr;
     grid-template-rows: auto auto auto ;
-
 }
+.cont1{display:grid;
+         grid-template-columns:1fr 2.5fr;
+     }
+.cont2{ }
+.cont3{ grid-template-columns:1fr 2.5fr;
+}
+.cont4{
+ }
+.cont5{ grid-template-columns:repeat(3,1fr);
+}
+.cont6{ 
+}
+
 .end{
     position: fixed;
     bottom: 0px;
