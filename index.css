@@ -35,7 +35,9 @@
 }
 .cont4{
  }
-.cont5{ grid-template-columns:repeat(3,1fr);
+.cont5{ 
+display: grid;
+    grid-template-columns:repeat(3,1fr);
 }
 .cont6{ 
 }
