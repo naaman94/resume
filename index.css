@@ -1,23 +1,32 @@
 * {
     margin: 0px;
 }
+
 .pad{padding: 10px 0 10px 0}
+
+.ulpad20{padding-left: 20px;}
+
 .padding {padding: 0px 20px 0px 20px;}
+
 .bold{font-weight: bold;}
+
 .white{color:white;}
-.per-skils{display: grid;
-    grid-template-columns:1fr 1.5fr;
-}
-.prog{width: 8em; height: 8px; right:20px;vertical-align: 0em;margin-top: 5px;
-}
+
+.per-skils{display: grid;    
+            grid-template-columns:1fr 1.5fr;}
+.prog{width: 8em;
+    height: 8px;
+    right:20px;
+    vertical-align:0em;
+    margin-top: 5px;}
 
 h3{font-size:25px}
 
 #all {
     width: 270mm;
     margin: auto;
-/*    min-width: 600px;
-    max-width: 960px;*/
+    min-width: 600px;
+    max-width: 960px;
     background-color: #e3e3e3;
     position: relative;
 }
@@ -27,36 +36,31 @@ h3{font-size:25px}
     }
 
 .padding-top{padding-top: 50px;
+            padding-bottom: 40px;
             display:grid;
             grid-template-columns:2fr 1fr;
-            grid-template-rows: auto auto auto ;}
+            grid-template-rows: auto auto auto;}
 
 .name{grid-column:1/2;
          font-size: 50px;}
-.majer{grid-column:1/2;font-size: 30px}
-.about{grid-column:1/2; font-size: 25px; padding :15px 0 15px 0;}
-/*.img-border{
-    position: absolute;
-    border: 8px solid ;
-    border-radius: 25px;
-    background-image: linear-gradient(to right, #3A292D, pink,#FDE8EC);
-    width: 180px;
-    height: 235px;
-    right: 30px;
-    top:40px;}*/
+.majer{grid-column:1/2;font-size: 25px}
+.about{grid-column:1/2;
+        font-family: "arial";
+        font-size: 18px;
+        padding :15px 0 0 0;}
 
 .img1{
-    border: 8px solid #FFB696;
+    border: 6px solid #FFB696;
     border-radius: 25px;
     position: absolute;
     right: 30px;
     top:40px;
 }
 .med{
-    height: 850px;
+    height: auto;
     right: 50px;
     padding-top: 40px;
-    padding-bottom: : 40px;
+    padding-bottom: 40px;
     display:grid;
     grid-gap: 20px;
     grid-template-columns:2fr 1fr;
@@ -97,8 +101,8 @@ grid-template-columns: 1fr 1fr;
     align-items: center;
     }
 .footer p {font-size: 20px}
-.hr0{width: 90%}
-
+.hr0{width: 90%;}
+.inline-block{display: inline-block;}
 
 
 
