@@ -5,8 +5,7 @@
 .padding {padding: 0px 20px 0px 20px;}
 .bold{font-weight: bold;}
 .white{color:white;}
-.prog{right:20px;}
-.prog-lang{width: 8em; right:20px;}
+.prog{width: 8em; height: 8px; right:20px;}
 h3{font-size:25px}
 
 #all {
@@ -18,7 +17,7 @@ h3{font-size:25px}
     position: relative;
 }
 
-.top {background-color: #056130;
+.top {background: linear-gradient(110deg, #34B3A1 -50%,  #FFB696 );
     height: auto;
     }
 
@@ -32,16 +31,18 @@ h3{font-size:25px}
 .majer{grid-column:1/2;font-size: 40px}
 .about{grid-column:1/2; font-size: 25px; padding :15px 0 15px 0;}
 .img1{
-    border: red 5px solid;
+    border: 8px solid linear-gradient(110deg, #FCDDCE -50%,  #FFB696 );
+    border-radius: 25px;
     position: absolute;
     right: 30px;
     top:40px;
 }
 
 .med{
-    height: 800px;
+    height: 850px;
     right: 50px;
-    padding-top: 40px; 
+    padding-top: 40px;
+    padding-bottom: : 40px;
     display:grid;
     grid-gap: 20px;
     grid-template-columns:2fr 1fr;
@@ -71,13 +72,13 @@ grid-template-columns: 1fr 1fr;
 
 .end{
     bottom: 0px;
-    height: 100px;
+    height: 80px;
     margin: auto;
-    background-color: #056130;
+    background: linear-gradient(110deg, #34B3A1 -50%,  #FFB696 );
     color: white;} 
 .footer{
     display:flex;
-    height: 80px;
+    height: 60px;
     justify-content: space-around;
     align-items: center;
     }
