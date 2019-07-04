@@ -5,7 +5,12 @@
 .padding {padding: 0px 20px 0px 20px;}
 .bold{font-weight: bold;}
 .white{color:white;}
-.prog{width: 8em; height: 8px; right:20px;}
+.per-skils{display: grid;
+    grid-template-columns:1fr 1.5fr;
+}
+.prog{width: 8em; height: 8px; right:20px;vertical-align: 0em;margin-top: 5px;
+}
+
 h3{font-size:25px}
 
 #all {
@@ -22,22 +27,31 @@ h3{font-size:25px}
     }
 
 .padding-top{padding-top: 50px;
-    display:grid;
-    grid-template-columns:2fr 1fr;
-    grid-template-rows: auto auto auto ;}
+            display:grid;
+            grid-template-columns:2fr 1fr;
+            grid-template-rows: auto auto auto ;}
 
 .name{grid-column:1/2;
-    font-size: 50px;}
-.majer{grid-column:1/2;font-size: 40px}
+         font-size: 50px;}
+.majer{grid-column:1/2;font-size: 30px}
 .about{grid-column:1/2; font-size: 25px; padding :15px 0 15px 0;}
+/*.img-border{
+    position: absolute;
+    border: 8px solid ;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #3A292D, pink,#FDE8EC);
+    width: 180px;
+    height: 235px;
+    right: 30px;
+    top:40px;}*/
+
 .img1{
-    border: 8px solid linear-gradient(110deg, #FCDDCE -50%,  #FFB696 );
+    border: 8px solid #FFB696;
     border-radius: 25px;
     position: absolute;
     right: 30px;
     top:40px;
 }
-
 .med{
     height: 850px;
     right: 50px;
@@ -83,6 +97,7 @@ grid-template-columns: 1fr 1fr;
     align-items: center;
     }
 .footer p {font-size: 20px}
+.hr0{width: 90%}
 
 
 
